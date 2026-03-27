@@ -336,8 +336,7 @@ async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             f"🚀 <b>No commands needed!</b>\n"
             f"Just paste any link and I'll handle it.\n\n"
             f"<code>/stats</code> — Your download stats\n"
-            f"<code>/help</code>  — Help &amp; info\n\n"
-            f"⚡ <i>Limit: {RATE_LIMIT_COUNT} downloads / hour</i>",
+            f"<code>/help</code>  — Help &amp; info\n\n",
             parse_mode=ParseMode.HTML,
             disable_web_page_preview=True,
         )
