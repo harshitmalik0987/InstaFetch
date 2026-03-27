@@ -395,8 +395,7 @@ async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             f"━━━━━━━━━━━━━━━━━━━━━━━━\n"
             f"🚀 <b>Just send me any link!</b>\n"
             f"No commands needed in private chat.\n\n"
-            f"<code>/help</code> — Help &amp; info\n\n"
-            f"⚡ <i>{RATE_LIMIT_COUNT} downloads / hour per user</i>",
+            f"<code>/help</code> — Help &amp; info\n\n",
             parse_mode=ParseMode.HTML,
             disable_web_page_preview=True,
         )
